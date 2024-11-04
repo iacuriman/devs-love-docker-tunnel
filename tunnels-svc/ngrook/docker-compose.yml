@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build: ./test-svc
+    ports:
+      - "8080:8080"
+  ngrok:
+    build: .
+    ports:
+      - "4040:4040"
+    depends_on:
+      - app

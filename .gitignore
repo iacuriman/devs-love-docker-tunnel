@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker files
+*.tar
+*.img
+*.log
+
+# Docker Compose files
+docker-compose.override.yml
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.tgz
+*.zip
+*.rar
